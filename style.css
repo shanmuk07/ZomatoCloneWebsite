@@ -1,0 +1,167 @@
+.bgimage{
+    background: url('image4.avif');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+
+.search p{
+    color: gray;
+    border-right: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+    margin-top: 10px;
+
+}
+
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(252, 119, 119);
+    padding: 10px;
+}
+
+.search i{
+    font-size: 20px;
+    padding: 10px;
+    color: gray;
+}
+
+.c1{
+    background-image: url('image1.jpg');
+    height: 5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.col-md-6{
+    border-radius: 20% !important;
+}
+
+.bg-im img:hover{
+    width: 50%;
+    height: 50%;
+}
+
+.bgimgCol{
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.img-rounded{
+    border-radius: 10px;
+}
+
+#sec1{
+    background-image: url('image1.jpg');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+#sec2{
+    background-image: url('image0.jpg');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+#sec3{
+    background-image: url('image2.jpg');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+#sec4{
+    background-image: url('image3.jpg');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.h5sec{
+    transform: translate(-12px, 204px);
+}
+
+.section3{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.getApp{
+    height:   ;
+    background-color: rgb(255, 251, 247);;
+}
+
+
+
+.radio label{
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+}
+
+.radio [type="radio"]{
+    accent-color: rgb(255, 92, 92);
+}
+
+
+
+.email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(255, 92, 92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+
+.row1{
+    border: 1px solid gray;
+    border-radius: 10px;
+   padding: 0 !important;
+    margin: 5px;
+}
+
+.bu{
+    background-color: white;
+}
+
+@media screen and (max-width: 426px) {
+    .search{
+        display: none !important;
+    }
+}
